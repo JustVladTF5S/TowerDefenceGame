@@ -5,8 +5,8 @@ using UnityEngine;
 public class MageTower : MonoBehaviour
 {
     public FadeEffect effectScript;
-    float damage = 50.0f;
-    List<EnemyBat> enemies = new List<EnemyBat>();
+    float damage = 100.0f;
+    List<BaseEnemy> enemies = new List<BaseEnemy>();
 
     
     void Start()
@@ -25,7 +25,7 @@ public class MageTower : MonoBehaviour
             enemies[0].doDamage(damage);
         }
     }
-    void OnEnemyDied(EnemyBat enemy){
+    void OnEnemyDied(BaseEnemy enemy){
         enemies.Remove(enemy);
 
     }
@@ -34,7 +34,7 @@ public class MageTower : MonoBehaviour
  void OnTriggerEnter2D(Collider2D collider)
  {
     GameObject enemyObject = collider.gameObject;
-    EnemyBat enemyScript = enemyObject.GetComponent<EnemyBat>();
+    BaseEnemy enemyScript = enemyObject.GetComponent<BaseEnemy>();
     enemyScript.EnemyDied += OnEnemyDied;
     enemies.Add(enemyScript);
     print("Enemy enter");
@@ -42,7 +42,7 @@ public class MageTower : MonoBehaviour
  void OnTriggerExit2D(Collider2D collider)
  {
     GameObject enemyObject = collider.gameObject;
-    EnemyBat enemyScript = enemyObject.GetComponent<EnemyBat>();
+    BaseEnemy enemyScript = enemyObject.GetComponent<BaseEnemy>();
     enemyScript.EnemyDied -= OnEnemyDied;
     enemies.Remove(enemyScript);
    
