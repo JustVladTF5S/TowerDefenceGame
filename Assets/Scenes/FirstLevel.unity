@@ -611,7 +611,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -779,10 +779,10 @@ RectTransform:
   m_Father: {fileID: 584363332}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 616, y: -463}
-  m_SizeDelta: {x: 838.6362, y: 393.7266}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 188, y: -37}
+  m_SizeDelta: {x: 438.32, y: 208.554}
   m_Pivot: {x: 0.50000006, y: 0.50000006}
 --- !u!114 &767720361
 MonoBehaviour:
@@ -1277,9 +1277,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.02365446, y: 0.31098056}
+  m_Offset: {x: -0.05645466, y: 0.31098056}
   serializedVersion: 2
-  m_Radius: 3.2433062
+  m_Radius: 3.4401069
 --- !u!212 &1287742078
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1319,7 +1319,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 33b1e9e5854f4834fb6f45edbbdbe779, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1680,10 +1680,10 @@ RectTransform:
   m_Father: {fileID: 584363332}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 332.81372, y: -473.24292}
-  m_SizeDelta: {x: 65.4809, y: 70.3396}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 38.600006, y: -41.314}
+  m_SizeDelta: {x: 26.97699, y: 23.682007}
   m_Pivot: {x: 0.49999952, y: 0.49999988}
 --- !u!114 &2043751367
 MonoBehaviour:
@@ -1837,10 +1837,10 @@ RectTransform:
   m_Father: {fileID: 584363332}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 596.20874, y: -471}
-  m_SizeDelta: {x: 438.0929, y: 117.2887}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 212.60002, y: -41.31421}
+  m_SizeDelta: {x: 315.5852, y: 43.0526}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2134837100
 MonoBehaviour:
@@ -1864,7 +1864,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
+    m_FontSize: 25
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
